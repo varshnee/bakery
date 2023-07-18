@@ -1,15 +1,26 @@
-body{
-    padding: 0;
-    margin: 0;
-}
-
-.App {
+.footer {
     width: 100%;
-    height: auto;
+    height: min-content;
+    background-color: #121619;
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 10px;
     margin-bottom: 0;
+    
+  }
+  
+  .socialMedia svg {
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding-left: 2px;
+    padding-right: 2px;
+  }
+  
+  .footer p {
+    color: white;
   }
 
   /* Hide the scrollbar for WebKit-based browsers (Chrome, Safari) */
